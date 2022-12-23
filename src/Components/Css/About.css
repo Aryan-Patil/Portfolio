@@ -1,0 +1,8 @@
+.heading-underline{
+    margin-top: -15px;
+    width: 60px;
+    height: 6px;
+    border-radius: 5px;
+    background-color: rgb(195, 10, 84);
+    margin-bottom: 20px;
+}

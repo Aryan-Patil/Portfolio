@@ -1,0 +1,132 @@
+.main{
+    color: white;
+    margin-top: 30px;
+    margin-left: 30px;
+    margin-right: 10px;
+    max-width: 300px;
+    padding: 15px;
+    border-radius: 20px;
+    background-color: rgba(255, 255, 255, 0.1);
+    
+}
+.name{
+    font-size: 30px;
+    text-align: center;
+}
+.dex-image{
+    margin-left: 80px;
+    padding: 10px;
+    border-radius: 8px;
+    background-color: rgba(255, 255, 255,.4);
+    width: 120px;
+    height: 120px;
+    box-shadow: 0 16px 30px hsla(0, 0%, 0%, 0.25);
+}
+.tag{
+    margin: auto;
+    max-width: fit-content;
+    padding: 7px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 5px;
+    font-size: 15px;
+    background-color: rgba(252, 252, 252,0.2);
+    margin-bottom: 40px;
+}
+.contact-info{
+    border-top: 1px solid white;
+    border-bottom: 1px solid white;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin: 20px;
+}
+.contact-detail-info{
+    margin-bottom: 30px;
+   display: flex;
+}
+.contact-img{
+    padding: 5px;
+    padding-left: 9px;
+    padding-right: 9px;
+    border-radius: 4px;
+    background-color: rgba(255, 255, 255,0.05);
+    color: rgb(195, 10, 84);
+    box-shadow: 0 16px 30px hsla(0, 0%, 0%, 0.25);
+}
+.main-info{
+    margin-top: 5px;
+    margin-left: 12px;
+}
+.fade-color{
+    color: rgb(175, 175, 175);
+}
+.main-info span a{
+    text-decoration: none;
+    color: white;
+}
+.hover-color:hover{
+    color: rgb(195, 10, 84);
+}
+.contact-footer{
+    text-align: center;
+}
+.contact-footer a{
+    margin-right: 15px;
+    margin-left: 15px;
+    color: white;
+    text-decoration: none;
+}
+.expand-btn{
+    
+    display: none;
+    padding-left: 6px;
+    padding-top: 4px;
+    color: rgb(195, 10, 84);
+    border: none;
+    background-color: rgba(255, 255, 255, 0.15);
+    margin: -15px;
+    float:right;
+    border-radius: 0 20px 0 0;
+}
+.expand-btn:hover{
+    background-color:rgb(195, 10, 84);
+    color: rgb(255, 255, 255);
+    transition: 0.1s;
+}
+.image{
+    padding: 10px;
+    border-radius: 10px;
+    background-color: rgba(255, 255, 255,.4);
+    width: 100px;
+    height: 100px;
+    margin-top: 15px;
+    margin-left: 10px;
+    margin-right: 30px;
+
+}
+.position{
+    display: flex;
+}
+
+@media (max-width: 1100px){
+    .main{
+        margin: auto;
+        margin-top: 30px;
+        min-width: 90%;
+    }
+    .expand-btn{
+        transition: 1s;
+        display: block;
+    }
+}
+@media (max-width:420px) {
+    .main{
+        font-size: small;
+    }
+    .name{
+        font-size: 25px;
+    }
+    .tag{
+        font-size: 13px;
+    }
+}
