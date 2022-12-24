@@ -7,14 +7,14 @@
     padding: 15px;
     border-radius: 20px;
     background-color: rgba(255, 255, 255, 0.1);
-    
+    min-width: fit-content;
 }
 .name{
     font-size: 30px;
     text-align: center;
 }
 .dex-image{
-    margin-left: 80px;
+    margin-left: 95px;
     padding: 10px;
     border-radius: 8px;
     background-color: rgba(255, 255, 255,.4);
@@ -30,8 +30,12 @@
     padding-right: 20px;
     border-radius: 5px;
     font-size: 15px;
-    background-color: rgba(252, 252, 252,0.2);
+    background-color:rgb(195, 10, 84);
     margin-bottom: 40px;
+}
+.tag a{
+    text-decoration: none;
+    color: white;
 }
 .contact-info{
     border-top: 1px solid white;

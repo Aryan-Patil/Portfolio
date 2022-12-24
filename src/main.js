@@ -23,7 +23,9 @@ export default function Main() {
       <img src={myimage} className='image'  alt="" srcset="" />
       <div className="basic-info">
       <h2 className='name'>Aryan Patil</h2>
-      <div className="tag">CS Student</div>
+      <div className="tag">
+        <a href="https://drive.google.com/file/d/1K82ILGWnEdVrEbZkSuvzv_Q3BKhk5a61/view?usp=sharing">Resume</a>
+      </div>
       </div>
       
       </div>
@@ -69,7 +71,7 @@ export default function Main() {
 <>
 <img className='dex-image' src={myimage} alt="" />
       <h2 className='name'>Aryan Patil</h2>
-      <div className="tag">CS Student</div>
+      <div className="tag"><a href="https://drive.google.com/file/d/1K82ILGWnEdVrEbZkSuvzv_Q3BKhk5a61/view?usp=sharing">Download Resume</a></div>
        <div className="contact-info">
 
 <div className="contact-detail-info">
