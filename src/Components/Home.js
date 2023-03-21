@@ -7,7 +7,7 @@ import {
 } from "react-router-dom";
 import About from './About';
 import Portfolio from './Portfolio';
-import Work from './Work';
+import Resume from './Resume';
 import Contact from './Contact';
 
 
@@ -18,7 +18,7 @@ export default function Home() {
                 <Routes>
                     <Route path="/" element={<About />} />
                     <Route path="/Portfolio" element={<Portfolio />} />
-                    <Route path="/Work" element={<Work />} />
+                    <Route path="/Resume" element={<Resume />} />
                     <Route path="/Contact" element={<Contact />} />
                 </Routes>
             </Router>

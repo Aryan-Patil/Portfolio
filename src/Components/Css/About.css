@@ -20,6 +20,21 @@
 .Card-img{
     margin: 20px;
 }
+
+@media (max-width:1150px) {
+    .card-display{
+        display: block;
+    }
+    .Card-img{
+        text-align: center;
+        align-items: center;
+       }
+}
+@media (max-width:1100px) {
+    .card-display{
+        display: flex;
+    }
+}
 @media (max-width:900px) {
    .Card{
     display: block;
@@ -41,3 +56,4 @@
         font-size: 13px;
     }
 }
+

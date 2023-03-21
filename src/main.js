@@ -1,16 +1,17 @@
-import React,{useState, useEffect} from 'react'
+import React,{useState} from 'react'
 import "./main.css"
 import { CiMobile3, CiMail, CiLocationOn } from "react-icons/ci";
 import { BiCalendar } from "react-icons/bi";
 import { AiOutlineGithub, AiFillLinkedin, AiOutlineInstagram, AiOutlineArrowsAlt } from "react-icons/ai";
 import useWindowResize from './resizewindow';
-import myimage from "./images/myimage.png"
+import myimage from "./images/myimage.png";
+import Basic from "./data/data.json";
 
 
 
 export default function Main() {
   const [show, setshow] = useState(false);
-  const {width, height} = useWindowResize();
+  const {width} = useWindowResize();
   
   
   return (
@@ -18,13 +19,15 @@ export default function Main() {
     <div className='main'>{width<=1100 ?
     <>
     
-      <button className='expand-btn' onClick={()=> setshow(!show)} type="button" ><AiOutlineArrowsAlt size={25} /></button>
+      <button className='expand-btn' onClick={()=> setshow(!show)} type="button" >
+        <AiOutlineArrowsAlt size={25} />
+        </button>
       <div className="position">
       <img src={myimage} className='image'  alt="" srcset="" />
       <div className="basic-info">
-      <h2 className='name'>Aryan Patil</h2>
+      <h2 className='name'>{Basic.basic.name}</h2>
       <div className="tag">
-        <a href="https://drive.google.com/file/d/1K82ILGWnEdVrEbZkSuvzv_Q3BKhk5a61/view?usp=sharing">Resume</a>
+        <a href={Basic.basic.resume}>Resume</a>
       </div>
       </div>
       
@@ -36,7 +39,7 @@ export default function Main() {
   <BiCalendar size={35} className='contact-img' />
   <div className='main-info'>
     <span className='fade-color' >DOB:</span><br />
-    <span>05-Jan-2003</span>
+    <span>{Basic.basic.dob}</span>
   </div>
 </div>
 
@@ -44,7 +47,7 @@ export default function Main() {
   <CiMobile3 size={35} className='contact-img' />
   <div className='main-info'>
     <span className='fade-color' >Phone:</span><br />
-    <span>+91 9967645946</span>
+    <span>{Basic.basic.contact}</span>
   </div>
 </div>
 
@@ -52,7 +55,7 @@ export default function Main() {
   <CiMail size={35} className='contact-img' />
   <div className='main-info'>
     <span className='fade-color' >Email:</span><br />
-    <span><a href="mailto:aryanpatil050103@gmail.com">aryanpatil050103@gmail.com</a></span>
+    <span><a href={Basic.basic.email_link}>{Basic.basic.email}</a></span>
   </div>
 </div>
 
@@ -60,7 +63,7 @@ export default function Main() {
   <CiLocationOn size={35} className='contact-img' />
   <div className='main-info'>
     <span className='fade-color' >Location:</span><br />
-    <span><a href="https://www.google.com/maps/place/Panvel,+Navi+Mumbai,+Maharashtra/@18.9889533,73.0793374,13z/data=!3m1!4b1!4m5!3m4!1s0x3be7e83e1f23f23d:0xe3a106c431e3fd0a!8m2!3d18.9894007!4d73.1175162">Panvel, Maharashtra, India</a></span>
+    <span><a href={Basic.basic.location_map}>{Basic.basic.location}</a></span>
   </div>
 </div>
 
@@ -70,15 +73,15 @@ export default function Main() {
 
 <>
 <img className='dex-image' src={myimage} alt="" />
-      <h2 className='name'>Aryan Patil</h2>
-      <div className="tag"><a href="https://drive.google.com/file/d/1K82ILGWnEdVrEbZkSuvzv_Q3BKhk5a61/view?usp=sharing">Download Resume</a></div>
+      <h2 className='name'>{Basic.basic.name}</h2>
+      <div className="tag"><a href={Basic.basic.resume}>Download Resume</a></div>
        <div className="contact-info">
 
 <div className="contact-detail-info">
   <BiCalendar size={35} className='contact-img' />
   <div className='main-info'>
     <span className='fade-color' >DOB:</span><br />
-    <span>05-Jan-2003</span>
+    <span>{Basic.basic.dob}</span>
   </div>
 </div>
 
@@ -86,7 +89,7 @@ export default function Main() {
   <CiMobile3 size={35} className='contact-img' />
   <div className='main-info'>
     <span className='fade-color' >Phone:</span><br />
-    <span>+91 9967645946</span>
+    <span>{Basic.basic.contact}</span>
   </div>
 </div>
 
@@ -94,7 +97,7 @@ export default function Main() {
   <CiMail size={35} className='contact-img' />
   <div className='main-info'>
     <span className='fade-color' >Email:</span><br />
-    <span><a href="mailto:aryanpatil050103@gmail.com">aryanpatil050103@gmail.com</a></span>
+    <span><a href={Basic.basic.email_link}>{Basic.basic.email}</a></span>
   </div>
 </div>
 
@@ -102,7 +105,7 @@ export default function Main() {
   <CiLocationOn size={35} className='contact-img' />
   <div className='main-info'>
     <span className='fade-color' >Location:</span><br />
-    <span><a href="https://www.google.com/maps/place/Panvel,+Navi+Mumbai,+Maharashtra/@18.9889533,73.0793374,13z/data=!3m1!4b1!4m5!3m4!1s0x3be7e83e1f23f23d:0xe3a106c431e3fd0a!8m2!3d18.9894007!4d73.1175162">Panvel, Maharashtra, India</a></span>
+    <span><a href={Basic.basic.location_map}>{Basic.basic.location}</a></span>
   </div>
 </div>
 
@@ -110,9 +113,9 @@ export default function Main() {
       
 </>}
       <div className="contact-footer">
-        <a href=""><AiOutlineGithub size={25} className="hover-color"/></a>
-        <a href=""><AiFillLinkedin size={25} className="hover-color"/></a>
-        <a href=""><AiOutlineInstagram size={25} className="hover-color"/></a>
+        <a href={Basic.basic.github}><AiOutlineGithub size={25} className="hover-color"/></a>
+        <a href={Basic.basic.linkdin}><AiFillLinkedin size={25} className="hover-color"/></a>
+        <a href={Basic.basic.instagram}><AiOutlineInstagram size={25} className="hover-color"/></a>
       </div>
     </div>
   )

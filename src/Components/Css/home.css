@@ -2,14 +2,68 @@
     background: hsl(240, 2%, 12%);
     color: white;
     margin-top: 30px;
-    margin-left: 10px;
+    margin-left: 400px;
     margin-right: 20px;
     padding: 20px;
     border-radius: 20px;
 
 }
+.fade{
+    animation: faDe 1.4s;
+}
+.fade-left{
+    animation: fadeIn 0.5s;
+}
+.fade-right{
+    animation: fadeIn2 0.5s;
+}
+.delay1{
+    animation-delay: 0.5s;
+}
+.delay2{
+    animation-delay: 1s;
+}
+.delay3{
+    animation-delay: 1.2s;
+}
+@keyframes fadeIn2 {
+    from{
+        margin-left: 20px;
+        opacity: 0;
+    }
+    to{
+        margin-left: 0px;
+        opacity: 1;
+    }
+}
+
+@keyframes fadeIn {
+    from{
+        margin-left: -20px;
+        opacity: 0;
+    }
+    to{
+        margin-left: 0px;
+        opacity: 1;
+    }
+}
 @media (max-width:1100px) {
     .Home{
+        margin-left: 10px;
         margin-top: 30px;
     }
 }
+
+.fade-in{
+    animation: fadeInn 1.4s;
+}
+
+@keyframes fadeInn {
+    from{
+        opacity: 0;
+    }
+    to{
+        opacity: 1;
+    }
+}
+

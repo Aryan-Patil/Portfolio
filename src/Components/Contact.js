@@ -48,9 +48,9 @@ export default function Contact() {
   return (
     <div>
       <Header />
-      <h1 className="heading-name">Contact Us</h1>
-      <div className="heading-underline"></div>
-      <div className="Contact-card">
+      <h1 className="heading-name fade-left">Contact Us</h1>
+      <div className="heading-underline fade-left"></div>
+      <div className="Contact-card fade-in">
         <div className="Contact-animation">
           <Player className='Animation'
             autoplay
@@ -63,7 +63,7 @@ export default function Contact() {
           <h3>Get in touch</h3><br />
           <div className="Contact-name contact-body-info">
             <span>Name </span><br />
-            <input className={name.length == 0 ?
+            <input className={name.length === 0 ?
               "Width-input border-white" :
               msg2 ?
                 "Width-input border-green" :
@@ -73,7 +73,7 @@ export default function Contact() {
           </div>
           <div className="Contact-email contact-body-info">
             <span>Email </span><br />
-            <input className={email.length == 0 ?
+            <input className={email.length === 0 ?
               "Width-input border-white" :
               msg1 ?
                 "Width-input border-green" :
@@ -83,7 +83,7 @@ export default function Contact() {
           </div>
           <div className="Contact-question contact-body-info">
             <span>Message </span><br />
-            <textarea className={content.length == 0 ?
+            <textarea className={content.length === 0 ?
               "Width-input border-white" :
               msg3 ?
                 "Width-input border-green" :
