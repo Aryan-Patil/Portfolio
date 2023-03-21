@@ -1,0 +1,14 @@
+.heading{
+    margin-top: 40px;
+    margin-left: 10px;
+}
+.heading span{
+    position: relative;
+    margin-left: 60px;
+    font-size: 20px;
+    font-weight: 600;
+}
+.education-logo{
+    margin-top: -5px;
+    position: absolute;
+}

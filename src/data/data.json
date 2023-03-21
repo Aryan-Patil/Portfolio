@@ -1,0 +1,44 @@
+{
+    "basic" : {
+        "name" : "Aryan Patil",
+        "contact" : "+91 9967645946",
+        "email" : "aryanpatil@gmail.com",
+        "email_link": "mailto:aryanpatil050103@gmail.com",
+        "location" : "Navi Mumbai, Maharashtra, India",
+        "location_map":"https://goo.gl/maps/fZ9w33kCEE1djaoA8",
+        "dob" : "05-Jan-2003",
+        "resume" : "https://drive.google.com/file/d/1K82ILGWnEdVrEbZkSuvzv_Q3BKhk5a61/view?usp=sharing",
+        "github" : "https://github.com/Aryan-Patil",
+        "linkdin" : "https://www.linkedin.com/in/aryan-patil-027a96205/",
+        "instagram" : "https://www.instagram.com/patil._aryan._/"
+    },
+    "about_me" :{
+        "heading" : "My name is Aryan. Currently I am -",
+        "points" : [
+            {
+                "id" : 1,
+                "content" : "I’m in 3rd year pursuing B.E. in Computer Science from University of Mumbai. I am always excited to learn new things, meet new people ,get connected with like minded people , share my experience, and learn from their experiences."
+            },
+            {
+                "id" : 2,
+                "content" : "learning Data Structures & Algorithms."
+            },
+            {
+                "id" : 3,
+                "content" : "working on improving my Fullstack Web Development Skills by applying what I learn in my projects."
+            },
+            {
+                "id" : 4,
+                "content" : "I enjoy turning complex problems into simple, beautiful and intuitive designs. "
+            },
+            {
+                "id" : 5,
+                "content" : "learing Automation Testing"
+            }
+        ]
+    },
+    "skills" :[  
+    ]
+    
+    
+}
