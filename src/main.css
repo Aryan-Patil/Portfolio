@@ -54,7 +54,7 @@
     padding-left: 9px;
     padding-right: 9px;
     border-radius: 4px;
-    background: linear-gradient( to top left, hsl(0, 0%, 0%) 3%, hsl(0, 0%, 20%) 97% );;
+    background: linear-gradient( to top left, hsl(0, 0%, 0%) 3%, hsl(0, 0%, 20%) 97% );
     /* background-color: rgba(255, 255, 255,0.05); */
     color: rgb(195, 10, 84);
     box-shadow: 0 20px 30px hsla(0, 0%, 0%, 0.5);

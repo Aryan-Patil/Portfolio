@@ -1,7 +1,7 @@
-.Header{
+.Header {
     margin: -20px;
     border-radius: 0 20px 0 20px;
-    float:right;
+    float: right;
     font-size: 20px;
     padding-top: 20px;
     padding-bottom: 10px;
@@ -9,19 +9,23 @@
     box-shadow: 0 16px 30px hsla(0, 0%, 0%, 0.25);
     z-index: 100;
 }
-.Header-name{
+
+.Header-name {
     color: white;
     text-decoration: none;
     margin: 25px;
 }
-.Header-name:hover{
+
+.Header-name:hover {
     color: rgb(171, 171, 171);
 }
-.active{
-    color:rgb(195, 10, 84);
+
+.active {
+    color: rgb(195, 10, 84);
 }
+
 @media (max-width:900px) {
-    .Header{
+    .Header {
         position: fixed;
         bottom: 0;
         margin: 0;
@@ -32,17 +36,20 @@
         backdrop-filter: blur(5px);
         text-align: center;
     }
-    .Header-name{
+
+    .Header-name {
         margin: 20px;
     }
 }
+
 @media (max-width:500px) {
-    .Header-name{
+    .Header-name {
         font-size: 15px;
     }
 }
+
 @media (max-width:370px) {
-    .Header-name{
+    .Header-name {
         margin: 10px;
     }
 }

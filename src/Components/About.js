@@ -34,11 +34,11 @@ export default function About() {
                         <div className="Card-body">
                             <h4>Web Development</h4>
                             <div className="Body-content">
-                                </div>
+                                High-quality development of websites using React, Javascript, PHP, MySql, HTML, CSS.
+                            </div>
                         </div>
                     </div>
                 </div>
-
                 <div class="col-sm-6 fade-right">
                     <div className="Card card-display">
                         <div className="Card-img">

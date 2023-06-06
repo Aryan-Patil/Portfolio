@@ -37,7 +37,64 @@
             }
         ]
     },
-    "skills" :[  
+    "tools" :[  
+        {
+            "name": "HTML"
+        },
+        {
+            "name": "React.Js"
+        },
+        {
+            "name": "CSS"
+        },
+        {
+            "name": "JavaScript"
+        },
+        {
+            "name": "Github"
+        },
+        {
+            "name": "Git"
+        },
+        {
+            "name": "Python"
+        },
+        {
+            "name": "PHP"
+        },
+        {
+            "name": "Bootstrap"
+        },
+        {
+            "name": "Firebase"
+        },
+        {
+            "name": "Godot"
+        },
+        {
+            "name": "Wordpress"
+        },
+        {
+            "name": "MySql"
+        }
+    ],
+    "education" : [
+        {
+            "heading":"Bachelors (B.E.) - Computer Science Engineering",
+            "year": 2024,
+            "content":"Terna Enginering College, Mumbai (Second Year: 8.35 CGPA)"
+            
+        },
+        {
+            "heading":"Higher Secondary Education",
+            "year": 2020,
+            "content":"C.K.T. Jr. College, Science (PCM) Maharashtra State Board (74.64%)"
+        },
+        {
+            "heading":"Primary & Secondary Education",
+            "year": 2018,
+            "content":"St George School, Maharashtra State Board (82%)"
+        }
     ]
     
     

@@ -1,4 +1,4 @@
-.Home{
+.Home {
     background: hsl(240, 2%, 12%);
     color: white;
     margin-top: 30px;
@@ -8,62 +8,72 @@
     border-radius: 20px;
 
 }
-.fade{
+
+.fade {
     animation: faDe 1.4s;
 }
-.fade-left{
+
+.fade-left {
     animation: fadeIn 0.5s;
 }
-.fade-right{
+
+.fade-right {
     animation: fadeIn2 0.5s;
 }
-.delay1{
+
+.delay1 {
     animation-delay: 0.5s;
 }
-.delay2{
+
+.delay2 {
     animation-delay: 1s;
 }
-.delay3{
+
+.delay3 {
     animation-delay: 1.2s;
 }
+
 @keyframes fadeIn2 {
-    from{
-        margin-left: 20px;
+    from {
+        margin-left: 5%;
         opacity: 0;
     }
-    to{
-        margin-left: 0px;
+
+    to {
+        margin-left: 0%;
         opacity: 1;
     }
 }
 
 @keyframes fadeIn {
-    from{
-        margin-left: -20px;
+    from {
+        margin-left: -5%;
         opacity: 0;
     }
-    to{
-        margin-left: 0px;
+
+    to {
+        margin-left: 0%;
         opacity: 1;
     }
 }
+
 @media (max-width:1100px) {
-    .Home{
+    .Home {
         margin-left: 10px;
         margin-top: 30px;
     }
 }
 
-.fade-in{
+.fade-in {
     animation: fadeInn 1.4s;
 }
 
 @keyframes fadeInn {
-    from{
+    from {
         opacity: 0;
     }
-    to{
+
+    to {
         opacity: 1;
     }
 }
-

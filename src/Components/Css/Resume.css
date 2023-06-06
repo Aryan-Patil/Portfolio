@@ -1,14 +1,245 @@
-.heading{
+.heading {
+    text-align: left;
     margin-top: 40px;
     margin-left: 10px;
 }
-.heading span{
+
+.heading span {
     position: relative;
     margin-left: 60px;
     font-size: 20px;
     font-weight: 600;
 }
-.education-logo{
+
+.education-logo {
+    z-index: 2;
     margin-top: -5px;
     position: absolute;
+}
+
+.education ul {
+    margin-top: 30px;
+    margin-left: 8px;
+}
+
+.education ul li .education-title {
+    font-size: 16px;
+    font-weight: 800;
+}
+
+.education ul li {
+    font-size: 14px;
+    padding-left: 50px;
+    margin-bottom: 20px;
+}
+
+.education ul li .year-of-study {
+    margin-left: 100px;
+    color: rgb(195, 10, 84);
+}
+
+.education ul li .content {
+    margin-left: 20px;
+    margin-top: 10px;
+    color: rgb(231, 231, 231);
+}
+
+.line {
+    z-index: 1;
+    margin-top: -250px;
+    margin-left: 30px;
+    position: absolute;
+    background-color: rgb(231, 231, 231);
+    height: 190px;
+    width: 0.5px;
+}
+
+.tools{
+    margin-bottom: -70px;
+    min-height: 250px;
+    min-width: 250px;
+    margin-top: -50px;
+    width: 100%;
+    z-index: 99;
+    position: relative;
+
+}
+.skills-and-tools{
+    display: flex;
+}
+.skills{
+    width: 50%;
+    min-width: 400px;
+}
+.skills .heading span{
+    margin-left: 0px;
+}
+.skills-contnet{
+    background: linear-gradient( to top left, hsl(0, 0%, 9%) 3%, hsl(0, 0%, 15%) 97% );
+    border-radius: 3px;
+    margin-top: 20px;
+    margin-left: 25px;
+    margin-right: 20px;
+    text-align: start;
+    width: 80%;
+    height: fit-content;
+    padding: 10px;
+    font-size: 14px;
+}
+.percent{
+    margin-top: 5px;
+    margin-bottom: 10px;
+    max-width: 90%;
+    height: 3px;
+    border-radius: 10px;
+    background-color: aliceblue;
+}
+.webdev{
+    height: 100%;
+    width: 60%;
+    background-color: rgb(195, 10, 84);
+}
+.webdesign{
+    height: 100%;
+    width: 80%;
+    background-color: rgb(195, 10, 84);
+}
+.python{
+    height: 100%;
+    width: 35%;
+    background-color: rgb(195, 10, 84);
+}
+.fake-margin{
+    margin-top: -60px;
+}
+@media (max-width: 1200px) {
+    .tools{
+        margin-top: 0px;
+    }
+}
+@media (max-width: 1100px) {
+    .tools{
+        margin-top: -50px;
+    }
+    .skills-and-tools{
+        text-align: center;
+    }
+}
+@media (max-width: 830px) {
+    .tools{
+        margin-top: 10px;
+    }
+}
+
+@media (max-width: 705px) {
+    .education ul {
+        margin-left: -2px;
+    }
+
+    .education ul li {
+        padding-left: 30px;
+        margin-bottom: 20px;
+    }
+
+    .heading {
+        margin-left: 0px;
+    }
+
+    .line {
+        margin-left: 20px;
+    }
+}
+@media (max-width:680px) {
+    .skills-and-tools{
+        display: block;
+    }
+    .skills{
+        width: 80%;
+    }
+    .skills-contnet{
+        width: 90%;
+    }
+    .tools{
+        margin-top: -50px;
+    }
+}
+
+@media (max-width: 675px) {
+    .education ul {
+        margin-left: -3.5px;
+    }
+
+    .education ul li {
+
+        font-size: 12px;
+    }
+
+    .education ul li .education-title {
+        font-size: 14px;
+        font-weight: 500;
+    }
+
+    .line {
+        height: 205px;
+    }
+}
+
+@media (max-width: 535px) {
+    .line {
+        margin-top: -270px;
+        height: 214px;
+    }
+}
+
+@media (max-width: 495px) {
+    .line {
+        margin-top: -290px;
+        height: 235px;
+    }
+}
+
+@media (max-width: 475px) {
+    .line {
+        margin-top: -320px;
+        height: 240px;
+    }
+    .skills{
+        min-width: 200px;
+    }
+}
+
+@media (max-width: 433px) {
+    .line {
+        margin-top: -350px;
+        height: 255px;
+    }
+}
+
+@media (max-width: 360px) {
+    .line {
+        margin-top: -380px;
+        height: 285px;
+    }
+}
+
+@media (max-width: 340px) {
+    .line {
+        margin-top: -400px;
+        height: 305px;
+    }
+
+    .education ul li .year-of-study {
+        margin-left: 90px;
+    }
+}
+
+@media (max-width: 320px) {
+    .line {
+        margin-top: -420px;
+        height: 305px;
+    }
+
+    .education ul li .year-of-study {
+        margin-left: 70px;
+    }
 }
