@@ -5,10 +5,10 @@ import {
     Route,
     Routes,
 } from "react-router-dom";
-import About from './About';
-import Portfolio from './Portfolio';
-import Resume from './Resume';
-import Contact from './Contact';
+import About from './Pages/About';
+import Portfolio from './Pages/Portfolio';
+import Resume from './Pages/Resume';
+import Contact from './Pages/Contact';
 
 
 export default function Home() {

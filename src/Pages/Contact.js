@@ -1,5 +1,5 @@
 import React, { useState } from 'react'
-import Header from './Header'
+import Header from '../Components/Header'
 import { Player } from '@lottiefiles/react-lottie-player';
 import "./Css/Contact.css"
 import emailjs from '@emailjs/browser';

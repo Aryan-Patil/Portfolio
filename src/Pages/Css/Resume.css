@@ -54,7 +54,7 @@
     width: 0.5px;
 }
 
-.tools{
+.tools {
     margin-bottom: -70px;
     min-height: 250px;
     min-width: 250px;
@@ -64,18 +64,22 @@
     position: relative;
 
 }
-.skills-and-tools{
+
+.skills-and-tools {
     display: flex;
 }
-.skills{
+
+.skills {
     width: 50%;
     min-width: 400px;
 }
-.skills .heading span{
+
+.skills .heading span {
     margin-left: 0px;
 }
-.skills-contnet{
-    background: linear-gradient( to top left, hsl(0, 0%, 9%) 3%, hsl(0, 0%, 15%) 97% );
+
+.skills-contnet {
+    background: linear-gradient(to top left, hsl(0, 0%, 9%) 3%, hsl(0, 0%, 15%) 97%);
     border-radius: 3px;
     margin-top: 20px;
     margin-left: 25px;
@@ -86,7 +90,8 @@
     padding: 10px;
     font-size: 14px;
 }
-.percent{
+
+.percent {
     margin-top: 5px;
     margin-bottom: 10px;
     max-width: 90%;
@@ -94,39 +99,47 @@
     border-radius: 10px;
     background-color: aliceblue;
 }
-.webdev{
+
+.webdev {
     height: 100%;
     width: 60%;
     background-color: rgb(195, 10, 84);
 }
-.webdesign{
+
+.webdesign {
     height: 100%;
     width: 80%;
     background-color: rgb(195, 10, 84);
 }
-.python{
+
+.python {
     height: 100%;
     width: 35%;
     background-color: rgb(195, 10, 84);
 }
-.fake-margin{
+
+.fake-margin {
     margin-top: -60px;
 }
+
 @media (max-width: 1200px) {
-    .tools{
+    .tools {
         margin-top: 0px;
     }
 }
+
 @media (max-width: 1100px) {
-    .tools{
+    .tools {
         margin-top: -50px;
     }
-    .skills-and-tools{
+
+    .skills-and-tools {
         text-align: center;
     }
 }
+
 @media (max-width: 830px) {
-    .tools{
+    .tools {
         margin-top: 10px;
     }
 }
@@ -149,17 +162,21 @@
         margin-left: 20px;
     }
 }
+
 @media (max-width:680px) {
-    .skills-and-tools{
+    .skills-and-tools {
         display: block;
     }
-    .skills{
+
+    .skills {
         width: 80%;
     }
-    .skills-contnet{
+
+    .skills-contnet {
         width: 90%;
     }
-    .tools{
+
+    .tools {
         margin-top: -50px;
     }
 }
@@ -203,7 +220,8 @@
         margin-top: -320px;
         height: 240px;
     }
-    .skills{
+
+    .skills {
         min-width: 200px;
     }
 }

@@ -1,5 +1,5 @@
-import './App.css';
-import Home from './Components/Home';
+import './Css/App.css';
+import Home from './Home';
 import Main from './main';
 import React from 'react';
 
@@ -7,8 +7,8 @@ import React from 'react';
 function App() {
   return (
     <div className="App">
-      <Main className="left"/>
-      <Home className="right"/>
+      <Main className="left" />
+      <Home className="right" />
     </div>
   );
 }

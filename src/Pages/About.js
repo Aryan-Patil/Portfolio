@@ -1,5 +1,5 @@
 import React from 'react'
-import Header from './Header'
+import Header from '../Components/Header'
 import "./Css/About.css"
 import { CgFigma, CgCodeSlash } from "react-icons/cg";
 import { AiFillGithub } from "react-icons/ai";
@@ -10,15 +10,15 @@ export default function About() {
         <div>
             <Header />
             <div className="fade-left">
-            <h1 className="heading-name">About Me</h1>
-            <div className="heading-underline"></div>
+                <h1 className="heading-name">About Me</h1>
+                <div className="heading-underline"></div>
             </div>
 
             <div className='about_info'>
                 <p className='fade-left'>{Basic.about_me.heading}</p>
                 <ul className='fade-right'>
-                    {Basic.about_me.points.map(data =>{
-                        return(
+                    {Basic.about_me.points.map(data => {
+                        return (
                             <li>{data.content}</li>
                         )
                     })}

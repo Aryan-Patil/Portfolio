@@ -25,23 +25,23 @@ const Skills = ({ ...rest }) => {
   }, []);
 
   return (
-      <div className='tools-main'>
-        <canvas
-          id='tagcanvas'
-          width='500'
-          height='500'
-          className='tools'
-        ></canvas>
-        <div id='taglist' style={{ display: 'none' }}>
-          <ul>
-            {Data.tools.map((skill) => (
-              <li>
-                <a href=''>{skill.name}</a>
-              </li>
-            ))}
-          </ul>
-        </div>
+    <div className='tools-main'>
+      <canvas
+        id='tagcanvas'
+        width='500'
+        height='500'
+        className='tools'
+      ></canvas>
+      <div id='taglist' style={{ display: 'none' }}>
+        <ul>
+          {Data.tools.map((skill) => (
+            <li>
+              <a href=''>{skill.name}</a>
+            </li>
+          ))}
+        </ul>
       </div>
+    </div>
   );
 };
 

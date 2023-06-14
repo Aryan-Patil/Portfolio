@@ -1,9 +1,9 @@
 import React from 'react'
-import Header from './Header'
+import Header from '../Components/Header'
 import { GiBookshelf } from "react-icons/gi";
 import "./Css/Resume.css";
 import Data from "../data/data.json"
-import Skills from './tools';
+import Skills from '../Components/tools';
 export default function Resume() {
 
   return (
@@ -62,7 +62,7 @@ export default function Resume() {
             </div>
           </div>
         </div>
-        <Skills className='fade-right'/>
+        <Skills className='fade-right' />
       </div>
       <div className="fake fake-margin">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam omnis ducimus recusandae placeat eum voluptatum earum laudantium sequi veritatis. Soluta sapiente magnam quaerat. </div>
 

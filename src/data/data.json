@@ -1,43 +1,43 @@
 {
-    "basic" : {
-        "name" : "Aryan Patil",
-        "contact" : "+91 9967645946",
-        "email" : "aryanpatil@gmail.com",
+    "basic": {
+        "name": "Aryan Patil",
+        "contact": "+91 9967645946",
+        "email": "aryanpatil@gmail.com",
         "email_link": "mailto:aryanpatil050103@gmail.com",
-        "location" : "Navi Mumbai, Maharashtra, India",
-        "location_map":"https://goo.gl/maps/fZ9w33kCEE1djaoA8",
-        "dob" : "05-Jan-2003",
-        "resume" : "https://drive.google.com/file/d/1K82ILGWnEdVrEbZkSuvzv_Q3BKhk5a61/view?usp=sharing",
-        "github" : "https://github.com/Aryan-Patil",
-        "linkdin" : "https://www.linkedin.com/in/aryan-patil-027a96205/",
-        "instagram" : "https://www.instagram.com/patil._aryan._/"
+        "location": "Navi Mumbai, Maharashtra, India",
+        "location_map": "https://goo.gl/maps/fZ9w33kCEE1djaoA8",
+        "dob": "05-Jan-2003",
+        "resume": "https://drive.google.com/file/d/1K82ILGWnEdVrEbZkSuvzv_Q3BKhk5a61/view?usp=sharing",
+        "github": "https://github.com/Aryan-Patil",
+        "linkdin": "https://www.linkedin.com/in/aryan-patil-027a96205/",
+        "instagram": "https://www.instagram.com/patil._aryan._/"
     },
-    "about_me" :{
-        "heading" : "My name is Aryan. Currently I am -",
-        "points" : [
+    "about_me": {
+        "heading": "My name is Aryan. Currently I am -",
+        "points": [
             {
-                "id" : 1,
-                "content" : "I’m in 3rd year pursuing B.E. in Computer Science from University of Mumbai. I am always excited to learn new things, meet new people ,get connected with like minded people , share my experience, and learn from their experiences."
+                "id": 1,
+                "content": "I’m in 3rd year pursuing B.E. in Computer Science from University of Mumbai. I am always excited to learn new things, meet new people ,get connected with like minded people , share my experience, and learn from their experiences."
             },
             {
-                "id" : 2,
-                "content" : "learning Data Structures & Algorithms."
+                "id": 2,
+                "content": "learning Data Structures & Algorithms."
             },
             {
-                "id" : 3,
-                "content" : "working on improving my Fullstack Web Development Skills by applying what I learn in my projects."
+                "id": 3,
+                "content": "working on improving my Fullstack Web Development Skills by applying what I learn in my projects."
             },
             {
-                "id" : 4,
-                "content" : "I enjoy turning complex problems into simple, beautiful and intuitive designs. "
+                "id": 4,
+                "content": "I enjoy turning complex problems into simple, beautiful and intuitive designs. "
             },
             {
-                "id" : 5,
-                "content" : "learing Automation Testing"
+                "id": 5,
+                "content": "learing Automation Testing"
             }
         ]
     },
-    "tools" :[  
+    "tools": [
         {
             "name": "HTML"
         },
@@ -78,24 +78,21 @@
             "name": "MySql"
         }
     ],
-    "education" : [
+    "education": [
         {
-            "heading":"Bachelors (B.E.) - Computer Science Engineering",
+            "heading": "Bachelors (B.E.) - Computer Science Engineering",
             "year": 2024,
-            "content":"Terna Enginering College, Mumbai (Second Year: 8.35 CGPA)"
-            
+            "content": "Terna Enginering College, Mumbai (Second Year: 8.35 CGPA)"
         },
         {
-            "heading":"Higher Secondary Education",
+            "heading": "Higher Secondary Education",
             "year": 2020,
-            "content":"C.K.T. Jr. College, Science (PCM) Maharashtra State Board (74.64%)"
+            "content": "C.K.T. Jr. College, Science (PCM) Maharashtra State Board (74.64%)"
         },
         {
-            "heading":"Primary & Secondary Education",
+            "heading": "Primary & Secondary Education",
             "year": 2018,
-            "content":"St George School, Maharashtra State Board (82%)"
+            "content": "St George School, Maharashtra State Board (82%)"
         }
     ]
-    
-    
 }

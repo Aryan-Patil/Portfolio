@@ -1,4 +1,4 @@
-.main{
+.main {
     position: fixed;
     color: white;
     margin-top: 30px;
@@ -10,19 +10,22 @@
     background-color: rgba(255, 255, 255, 0.1);
     min-width: fit-content;
 }
-.name{
+
+.name {
     font-size: 30px;
     text-align: center;
 }
-.dex-image{
+
+.dex-image {
     margin-left: 105px;
     border-radius: 8px;
-    background-color: rgba(255, 255, 255,.4);
+    background-color: rgba(255, 255, 255, .4);
     width: 120px;
     height: 120px;
     box-shadow: 0 16px 30px hsla(0, 0%, 0%, 0.25);
 }
-.tag{
+
+.tag {
     margin: auto;
     max-width: fit-content;
     padding: 7px;
@@ -30,59 +33,70 @@
     padding-right: 20px;
     border-radius: 5px;
     font-size: 15px;
-    background-color:rgb(195, 10, 84);
+    background-color: rgb(195, 10, 84);
     margin-bottom: 40px;
 }
-.tag a{
+
+.tag a {
     text-decoration: none;
     color: white;
 }
-.contact-info{
+
+.contact-info {
     border-top: 1px solid white;
     border-bottom: 1px solid white;
     padding-top: 20px;
     padding-bottom: 20px;
     margin: 20px;
 }
-.contact-detail-info{
+
+.contact-detail-info {
     margin-bottom: 30px;
-   display: flex;
+    display: flex;
 }
-.contact-img{
+
+.contact-img {
     padding: 5px;
     padding-left: 9px;
     padding-right: 9px;
     border-radius: 4px;
-    background: linear-gradient( to top left, hsl(0, 0%, 0%) 3%, hsl(0, 0%, 20%) 97% );
+    background: linear-gradient(to top left, hsl(0, 0%, 0%) 3%, hsl(0, 0%, 20%) 97%);
     /* background-color: rgba(255, 255, 255,0.05); */
     color: rgb(195, 10, 84);
     box-shadow: 0 20px 30px hsla(0, 0%, 0%, 0.5);
 }
-.main-info{
+
+.main-info {
     margin-top: 5px;
     margin-left: 12px;
 }
-.fade-color{
+
+.fade-color {
     color: rgb(175, 175, 175);
 }
-.main-info span a{
+
+.main-info span a {
     text-decoration: none;
     color: white;
 }
-.hover-color:hover{
+
+.hover-color:hover {
     color: rgb(195, 10, 84);
 }
-.contact-footer{
+
+.contact-footer {
     text-align: center;
 }
-.contact-footer a{
+
+.contact-footer a {
     margin-right: 15px;
     margin-left: 15px;
     color: white;
     text-decoration: none;
 }
-.expand-btn{
-    
+
+.expand-btn {
+
     display: none;
     padding-left: 6px;
     padding-top: 4px;
@@ -90,17 +104,19 @@
     border: none;
     background-color: rgba(255, 255, 255, 0.15);
     margin: -15px;
-    float:right;
+    float: right;
     border-radius: 0 20px 0 0;
 }
-.expand-btn:hover{
-    background-color:rgb(195, 10, 84);
+
+.expand-btn:hover {
+    background-color: rgb(195, 10, 84);
     color: rgb(255, 255, 255);
     transition: 0.1s;
 }
-.image{
+
+.image {
     border-radius: 10px;
-    background-color: rgba(255, 255, 255,.4);
+    background-color: rgba(255, 255, 255, .4);
     width: 100px;
     height: 100px;
     margin-top: 15px;
@@ -108,45 +124,54 @@
     margin-right: 30px;
 
 }
-.position{
+
+.position {
     display: flex;
 }
 
-@media (max-width: 1100px){
-    .main{
+@media (max-width: 1100px) {
+    .main {
         position: relative;
         margin: auto;
         margin-top: 30px;
         padding-top: 15px;
         min-width: 90%;
     }
-    .contact-info{
-        animation: expanding 0.5s; 
+
+    .contact-info {
+        animation: expanding 0.5s;
     }
-    .basic-info{
+
+    .basic-info {
         padding-top: 20px;
     }
-    .expand-btn{
+
+    .expand-btn {
         transition: 1s;
         display: block;
     }
 }
+
 @media (max-width:420px) {
-    .main{
+    .main {
         font-size: small;
     }
-    .name{
+
+    .name {
         font-size: 25px;
     }
-    .tag{
+
+    .tag {
         font-size: 13px;
     }
 }
+
 @keyframes expanding {
-    from{
+    from {
         height: 80px;
     }
-    to{
+
+    to {
         height: 375px;
     }
 }
