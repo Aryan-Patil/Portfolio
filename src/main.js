@@ -4,7 +4,7 @@ import { CiMobile3, CiMail, CiLocationOn } from "react-icons/ci";
 import { BiCalendar } from "react-icons/bi";
 import { AiOutlineGithub, AiFillLinkedin, AiOutlineInstagram, AiOutlineArrowsAlt } from "react-icons/ai";
 import useWindowResize from './resizewindow';
-import myimage from "./images/myimage.png";
+import myimage from "./images/profile.jpg";
 import Basic from "./data/data.json";
 
 

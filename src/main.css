@@ -15,8 +15,7 @@
     text-align: center;
 }
 .dex-image{
-    margin-left: 95px;
-    padding: 10px;
+    margin-left: 105px;
     border-radius: 8px;
     background-color: rgba(255, 255, 255,.4);
     width: 120px;
@@ -100,7 +99,6 @@
     transition: 0.1s;
 }
 .image{
-    padding: 10px;
     border-radius: 10px;
     background-color: rgba(255, 255, 255,.4);
     width: 100px;
