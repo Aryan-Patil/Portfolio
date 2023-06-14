@@ -2,6 +2,7 @@ import React, { useState } from 'react'
 import Header from './Header'
 import { Player } from '@lottiefiles/react-lottie-player';
 import "./Css/Contact.css"
+import emailjs from '@emailjs/browser';
 
 export default function Contact() {
 
@@ -12,8 +13,6 @@ export default function Contact() {
   const [name, setname] = useState("")
   const [content, setcontent] = useState("")
 
-  
-  
   const emailValidation = (e) => {
     var pattern = /^[^ ]+@[^ ]+\.[a-z]{2,3}$/
     var emailValue = e.target.value
@@ -45,6 +44,31 @@ export default function Contact() {
       setmsg3(false)
     }
   }
+  const formSubmit = (e) => {
+    e.preventDefault();
+    var prams = {
+      name: name,
+      email: email,
+      content: content
+    }
+    const serviceId = "service_hvfyfke";
+    const tempId = "template_8v2uhmd";
+    const userId = 'frdFq_AgCGZW4U4rM';
+    emailjs.send(serviceId, tempId, prams, userId).then(
+      res => {
+        alert('Thanks for contacting me!');
+        console.log(res);
+        setEmail('');
+        setname('');
+        setcontent('');
+        setmsg1(false);
+        setmsg2(false);
+        setmsg3(false);
+      }).catch(err => console.log(err))
+  }
+
+
+
   return (
     <div>
       <Header />
@@ -59,7 +83,7 @@ export default function Contact() {
           />
 
         </div>
-        <form className="Contact-body" action='https://formspree.io/f/mvonpyaq' method='POST'>
+        <form className="Contact-body" onSubmit={formSubmit}>
           <h3>Get in touch</h3><br />
           <div className="Contact-name contact-body-info">
             <span>Name </span><br />
@@ -92,7 +116,7 @@ export default function Contact() {
               onChange={bodyVad} value={content} required
               placeholder='Enter Message' name="message" id="" rows="7"></textarea>
           </div>
-          <input type="submit" className={msg1 ? msg2 ? msg3 ? "button-main button-active" :"button-disabled" :"button-disabled" : "button-disabled"} value="Submit" />
+          <input type="submit" className={msg1 ? msg2 ? msg3 ? "button-main button-active" : "button-disabled" : "button-disabled" : "button-disabled"} value="Submit" />
         </form>
       </div>
       <div className="fake">
