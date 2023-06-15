@@ -95,9 +95,8 @@ export default function Contact() {
             <span>Email </span>
             <br />
             <input
-              className={`Width-input ${
-                formValues.email.length === 0 ? 'border-white' : validateEmail() ? 'border-green' : 'border-red'
-              }`}
+              className={`Width-input ${formValues.email.length === 0 ? 'border-white' : validateEmail() ? 'border-green' : 'border-red'
+                }`}
               placeholder="Enter E-Mail"
               required
               onChange={(e) => updateFormValue('email', e.target.value)}
@@ -111,9 +110,8 @@ export default function Contact() {
             <span>Message </span>
             <br />
             <textarea
-              className={`Width-input ${
-                formValues.content.length === 0 ? 'border-white' : validateContent() ? 'border-green' : 'border-red'
-              }`}
+              className={`Width-input ${formValues.content.length === 0 ? 'border-white' : validateContent() ? 'border-green' : 'border-red'
+                }`}
               onChange={(e) => updateFormValue('content', e.target.value)}
               value={formValues.content}
               required

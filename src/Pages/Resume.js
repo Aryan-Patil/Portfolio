@@ -19,19 +19,14 @@ export default function Resume() {
           <span>Education</span>
         </div>
         <ul className='fade-in'>
-          {Data.education.map(data => {
-            return (
-              <li>
-                <span className="education-title">
-                  {data.heading}
-                </span>
-                <span className="year-of-study ">-{data.year}</span><br />
-                <div className="content">
-                  {data.content}
-                </div>
-              </li>
-            )
-          })}
+          {Data.education.map((data, index) => (
+            <li key={index}>
+              <span className="education-title">{data.heading}</span>
+              <span className="year-of-study">-{data.year}</span>
+              <br />
+              <div className="content">{data.content}</div>
+            </li>
+          ))}
 
         </ul>
         <div className="line fade-in"></div>

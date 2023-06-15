@@ -17,11 +17,7 @@ export default function About() {
             <div className='about_info'>
                 <p className='fade-left'>{Basic.about_me.heading}</p>
                 <ul className='fade-right'>
-                    {Basic.about_me.points.map(data => {
-                        return (
-                            <li>{data.content}</li>
-                        )
-                    })}
+                    {Basic.about_me.points.map((data, index) => <li key={index}>{data.content}</li>)}
                 </ul>
             </div>
             <h2 className='fade-left'>What I'm Good At.</h2>
