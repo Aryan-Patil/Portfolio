@@ -7,7 +7,7 @@
         "location": "Navi Mumbai, Maharashtra, India",
         "location_map": "https://goo.gl/maps/fZ9w33kCEE1djaoA8",
         "dob": "05-Jan-2003",
-        "resume": "https://drive.google.com/file/d/1K82ILGWnEdVrEbZkSuvzv_Q3BKhk5a61/view?usp=sharing",
+        "resume": "https://drive.google.com/file/d/13b6AfXa4VVTKzBcTgCBg2rNZaLnXu1eP/view?usp=sharing",
         "github": "https://github.com/Aryan-Patil",
         "linkdin": "https://www.linkedin.com/in/aryan-patil-027a96205/",
         "instagram": "https://www.instagram.com/patil._aryan._/"
@@ -93,6 +93,71 @@
             "heading": "Primary & Secondary Education",
             "year": 2018,
             "content": "St George School, Maharashtra State Board (82%)"
+        }
+    ],
+    "projects": [
+        {
+            "type": 1,
+            "name": "Narative Media",
+            "description": "This website is the face of a startup agency Narrative Media which helps content creator to grow their social media. Through the website user can contact the team of Narrative Media and can book a meeting. ",
+            "github": "https://github.com/Aryan-Patil/Narative_Media",
+            "visit": "https://aryan-patil.github.io/Narative_Media/",
+            "img": "https://firebasestorage.googleapis.com/v0/b/portfolio-44418.appspot.com/o/Projects%2Fnarative.jpeg?alt=media&token=31bd873a-2fc2-480f-b6bc-df20c5f68af2"
+        },
+        {
+            "type": 1,
+            "name": "Boxie Jumps",
+            "description": "Boxie Jump is a basic jumping game in which we can collect points by collecting coins and by killing enemies. ",
+            "github": "https://github.com/Aryan-Patil/Boxie_Jump",
+            "visit": "https://aryan-patil.github.io/Boxie_Jump/",
+            "img": "https://firebasestorage.googleapis.com/v0/b/portfolio-44418.appspot.com/o/Projects%2FBoxie%20Jumps.png?alt=media&token=0db9f5e3-e212-4321-afc2-3eea44edbef2"
+        },
+        {
+            "type": 1,
+            "name": "HYBRID CAFE Website",
+            "description": "It is a e-commerce website for ordering food creacted using HTML, CSS, Javascript, PHP and MySql which also contains admin panel in which there is an analysis section for analysing the growth of the cafe which is creacted using Chart.js.",
+            "github": "https://github.com/Aryan-Patil/Hybrid-Cafe",
+            "visit": "https://github.com/Aryan-Patil/Hybrid-Cafe",
+            "img": "https://firebasestorage.googleapis.com/v0/b/portfolio-44418.appspot.com/o/Projects%2FHybrid%20Cafe.png?alt=media&token=c732a3cf-5e46-4925-8cc5-1880a331e8e1"
+        },
+        {
+            "type": 1,
+            "name": "Weather Website",
+            "description": "This website allows users to check the current weather and forecast for various locations. With a clean and intuitive interface, users can easily search for a specific location and obtain detailed weather information. ",
+            "github": "https://github.com/Aryan-Patil/Weather_website",
+            "visit": "https://aryan-patil.github.io/Weather_website/",
+            "img": "https://firebasestorage.googleapis.com/v0/b/portfolio-44418.appspot.com/o/Projects%2FWeather%20Website.png?alt=media&token=b525d905-fb69-412a-8e6f-060180304f4d"
+        },
+        {
+            "type": 3,
+            "name": "Supervision Model For Cookie Industry",
+            "description": "Supervision and processing in the cookie industry uses image recognition methods and Python programming to reduces the cost of the machinery required for production of the cookie and segregates the same-flavor cookies into different patterns and also helps in quality assurance.",
+            "github": "https://github.com/Aryan-Patil/Supervision-model-for-cookie-industry",
+            "img": "https://firebasestorage.googleapis.com/v0/b/portfolio-44418.appspot.com/o/Projects%2Fsupervision-model.png?alt=media&token=102c821d-9e4e-434d-9eaf-3bc5248d8019"
+        },
+        {
+            "type": 2,
+            "name": "GetSet",
+            "description": "The design contains admin panel in which admin can have access to the information about orders, queries, delivery person and many more with the help of figma.",
+            "Figma": "https://www.figma.com/file/8fLijL1jnjXHiRjnCmKVFA/GetSett?type=design&node-id=0%3A1&t=1r5T18b5pOy3NcUj-1",
+            "prototype":"https://www.figma.com/proto/8fLijL1jnjXHiRjnCmKVFA/GetSett?type=design&node-id=101-2&scaling=scale-down&page-id=0%3A1&starting-point-node-id=101%3A2",
+            "img": "https://firebasestorage.googleapis.com/v0/b/portfolio-44418.appspot.com/o/Projects%2Fsupervision-model.png?alt=media&token=102c821d-9e4e-434d-9eaf-3bc5248d8019"
+        },
+        {
+            "type": 2,
+            "name": "Design For Narative Media",
+            "description": "The design contains Home, About us, Services, Contact us panel in a single page in figma.",
+            "Figma": "https://www.figma.com/file/zvPCgM2KD2xF578bFvmCTK/Narative-Media?type=design&node-id=0%3A1&t=Dsln8P6YRLsHQ7Tx-1",
+            "prototype":"https://www.figma.com/file/zvPCgM2KD2xF578bFvmCTK/Narative-Media?type=design&node-id=0%3A1&t=Dsln8P6YRLsHQ7Tx-1",
+            "img": "https://firebasestorage.googleapis.com/v0/b/portfolio-44418.appspot.com/o/Projects%2FNarativedesign.jpg?alt=media&token=6398b719-3cfd-467c-8379-f8419325a4fe"
+        },
+        {
+            "type": 2,
+            "name": "Red Magic FC",
+            "description": "This design contains Home, Countact us, About Us, News page for the football club.",
+            "Figma": "https://www.figma.com/file/NEfJ2VhrsDP5Z2QduTeFlK/Untitled?type=design&node-id=0%3A1&t=8JSjd6iPmFNpCgvw-1",
+            "prototype":"https://www.figma.com/proto/NEfJ2VhrsDP5Z2QduTeFlK/Untitled?type=design&node-id=221-3&scaling=scale-down&page-id=0%3A1&starting-point-node-id=221%3A3",
+            "img": "https://firebasestorage.googleapis.com/v0/b/portfolio-44418.appspot.com/o/Projects%2Fred_magic.png?alt=media&token=53fd4196-5e8d-492a-b390-d634095e1ee7"
         }
     ]
 }
