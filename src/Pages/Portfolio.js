@@ -8,21 +8,21 @@ const ProjectCard = ({ data }) => {
     if (data.type === 1) {
       return (
         <div className="flex">
-          <div className="tags"><a href={data.github}>GitHub</a></div>
-          <div className="tags"><a href={data.visit}>Visit</a></div>
+          <div className="tags"><a target="_blank" href={data.github}>GitHub</a></div>
+          <div className="tags"><a target="_blank" href={data.visit}>Visit</a></div>
         </div>
       );
     } else if (data.type === 2) {
       return (
         <div className="flex">
-          <div className="tags"><a href={data.Figma}>Figma</a></div>
-          <div className="tags"><a href={data.prototype}>Prototype</a></div>
+          <div className="tags"><a target="_blank" href={data.Figma}>Figma</a></div>
+          <div className="tags"><a target="_blank" href={data.prototype}>Prototype</a></div>
         </div>
       );
     } else if (data.type === 3) {
       return (
         <div className="flex">
-          <div className="tags"><a href={data.github}>GitHub</a></div>
+          <div className="tags"><a target="_blank" href={data.github}>GitHub</a></div>
         </div>
       );
     }

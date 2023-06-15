@@ -36,7 +36,7 @@ const Skills = ({ ...rest }) => {
         <ul>
           {Data.tools.map((skill) => (
             <li>
-              <a href=''>{skill.name}</a>
+              <a target="_blank" href=''>{skill.name}</a>
             </li>
           ))}
         </ul>

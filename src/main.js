@@ -27,7 +27,7 @@ export default function Main() {
           <div className="basic-info">
             <h2 className='name'>{Basic.basic.name}</h2>
             <div className="tag">
-              <a href={Basic.basic.resume}>Resume</a>
+              <a target="_blank" href={Basic.basic.resume}>Resume</a>
             </div>
           </div>
 
@@ -55,7 +55,7 @@ export default function Main() {
             <CiMail size={35} className='contact-img' />
             <div className='main-info'>
               <span className='fade-color' >Email:</span><br />
-              <span><a href={Basic.basic.email_link}>{Basic.basic.email}</a></span>
+              <span><a target="_blank" href={Basic.basic.email_link}>{Basic.basic.email}</a></span>
             </div>
           </div>
 
@@ -63,7 +63,7 @@ export default function Main() {
             <CiLocationOn size={35} className='contact-img' />
             <div className='main-info'>
               <span className='fade-color' >Location:</span><br />
-              <span><a href={Basic.basic.location_map}>{Basic.basic.location}</a></span>
+              <span><a target="_blank" href={Basic.basic.location_map}>{Basic.basic.location}</a></span>
             </div>
           </div>
 
@@ -74,7 +74,7 @@ export default function Main() {
       <>
         <img className='dex-image' src={myimage} alt="" />
         <h2 className='name'>{Basic.basic.name}</h2>
-        <div className="tag"><a href={Basic.basic.resume}>Download Resume</a></div>
+        <div className="tag"><a target="_blank" href={Basic.basic.resume}>Download Resume</a></div>
         <div className="contact-info">
 
           <div className="contact-detail-info">
@@ -97,7 +97,7 @@ export default function Main() {
             <CiMail size={35} className='contact-img' />
             <div className='main-info'>
               <span className='fade-color' >Email:</span><br />
-              <span><a href={Basic.basic.email_link}>{Basic.basic.email}</a></span>
+              <span><a target="_blank" href={Basic.basic.email_link}>{Basic.basic.email}</a></span>
             </div>
           </div>
 
@@ -105,7 +105,7 @@ export default function Main() {
             <CiLocationOn size={35} className='contact-img' />
             <div className='main-info'>
               <span className='fade-color' >Location:</span><br />
-              <span><a href={Basic.basic.location_map}>{Basic.basic.location}</a></span>
+              <span><a target="_blank" href={Basic.basic.location_map}>{Basic.basic.location}</a></span>
             </div>
           </div>
 
@@ -113,9 +113,9 @@ export default function Main() {
 
       </>}
       <div className="contact-footer">
-        <a href={Basic.basic.github}><AiOutlineGithub size={25} className="hover-color" /></a>
-        <a href={Basic.basic.linkdin}><AiFillLinkedin size={25} className="hover-color" /></a>
-        <a href={Basic.basic.instagram}><AiOutlineInstagram size={25} className="hover-color" /></a>
+        <a target="_blank" href={Basic.basic.github}><AiOutlineGithub size={25} className="hover-color" /></a>
+        <a target="_blank" href={Basic.basic.linkdin}><AiFillLinkedin size={25} className="hover-color" /></a>
+        <a  target="_blank" href={Basic.basic.instagram}><AiOutlineInstagram size={25} className="hover-color" /></a>
       </div>
     </div>
   )
