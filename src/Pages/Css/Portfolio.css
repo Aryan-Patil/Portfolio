@@ -20,6 +20,62 @@
     background-color: rgba(195, 10, 84,1);
     border: 2px solid rgb(195, 10, 84);
 }
+.project-card{
+    padding-bottom: 20px;
+    border-radius: 5px;
+    font-weight: 700;
+    background-color: black;
+    height: fit-content;
+    width: 250px;
+    transition: .1s;
+}
+.card-image{
+    height: 160px;
+    width: 250px;
+    margin-bottom: 10px;
+    border-radius: 5px 5px 0px 0px;
+}
+.project-heading{
+    text-align: center;
+    padding: 0px 10px;
+    width: 250px;
+}
+.span-details{
+    margin-bottom: 10px;
+    text-align: center;
+    font-size: 10px;
+    font-weight: 200;
+}
+.description{
+    margin: 5px 7px 15px 7px;
+    font-size: 8px;
+    font-weight: 200;
+}
+.flex{
+    display: flex;
+}
+.tags {
+    margin: auto;
+    max-width: fit-content;
+    padding: 3px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius: 5px;
+    font-size: 10px;
+    background-color: rgba(195, 10, 84,0);
+    border: 1px solid #ffffff;
+}
+.tags:hover{
+    transition: 0.1s;
+    background-color: rgba(195, 10, 84,1);
+    border: 1px solid rgb(195, 10, 84);
+}
+
+.tags a {
+    font-weight: 300;
+    text-decoration: none;
+    color: white;
+}
 @media (max-width: 430px) {
     .projects-btn{
         max-width: fit-content;
