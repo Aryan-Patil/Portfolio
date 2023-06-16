@@ -87,13 +87,13 @@
     color: white;
 }
 
-.row {
+.portfolio .row {
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
 }
 
-.col {
+.portfolio .col {
     display: flex;
     justify-content: center;
 }

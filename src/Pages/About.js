@@ -28,7 +28,7 @@ export default function About() {
                             <CgCodeSlash className='Card-img-color' size={50} />
                         </div>
                         <div className="Card-body">
-                            <h4>Web Development</h4>
+                            <div className='internal-heading'>Web Development</div>
                             <div className="Body-content">
                                 High-quality development of websites using React, Javascript, PHP, MySql, HTML, CSS.
                             </div>
@@ -41,7 +41,7 @@ export default function About() {
                             <CgFigma className='Card-img-color' size={50} />
                         </div>
                         <div className="Card-body">
-                            <h4>Web Design</h4>
+                            <div className='internal-heading'>Web Design</div>
                             <div className="Body-content">
                                 The most modern and high-quality design made with Figma.
                             </div>
@@ -55,7 +55,7 @@ export default function About() {
                             <AiFillGithub className='Card-img-color' size={50} />
                         </div>
                         <div className="Card-body">
-                            <h4>Git & GitHub</h4>
+                            <div className='internal-heading'>Git & GitHub</div>
                             <div className="Body-content">
                                 Using Git for source code management & GitHub version control and collaboration.
                             </div>

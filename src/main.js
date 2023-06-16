@@ -4,7 +4,11 @@ import { CiMobile3, CiMail, CiLocationOn } from "react-icons/ci";
 import { BiCalendar } from "react-icons/bi";
 import { AiOutlineGithub, AiFillLinkedin, AiOutlineInstagram, AiOutlineArrowsAlt } from "react-icons/ai";
 import useWindowResize from './resizewindow';
-import myimage from "./images/profile.jpg";
+import profile200 from './images/profile_qpoekr_c_scale,w_200.webp';
+import profile671 from './images/profile_qpoekr_c_scale,w_671.webp';
+import profile1005 from './images/profile_qpoekr_c_scale,w_1005.webp';
+import profile1240 from './images/profile_qpoekr_c_scale,w_1240.webp';
+import profile1400 from './images/profile_qpoekr_c_scale,w_1400.webp';
 import Basic from "./data/data.json";
 
 
@@ -19,11 +23,13 @@ export default function Main() {
     <div className='main'>{width <= 1100 ?
       <>
 
-        <button className='expand-btn' onClick={() => setshow(!show)} type="button" >
+        <button className='expand-btn' aria-label="Expand" onClick={() => setshow(!show)} type="button" >
           <AiOutlineArrowsAlt size={25} />
         </button>
         <div className="position">
-          <img src={myimage} className='image' alt="" srcset="" />
+          <img srcSet={`${profile200} 200w, ${profile671} 671w, ${profile1005} 1005w, ${profile1240} 1240w, ${profile1400} 1400w`}
+        src={profile1400}
+        alt="Profile Image" className='image' srcset="" />
           <div className="basic-info">
             <h2 className='name'>{Basic.basic.name}</h2>
             <div className="tag">
@@ -72,7 +78,10 @@ export default function Main() {
       </> :
 
       <>
-        <img className='dex-image' src={myimage} alt="" />
+        <img className='dex-image' srcSet={`${profile200} 200w, ${profile671} 671w, ${profile1005} 1005w, ${profile1240} 1240w, ${profile1400} 1400w`}
+        sizes="(max-width: 1400px) 100vw, 1400px"
+        src={profile1400}
+        alt="Profile Image" />
         <h2 className='name'>{Basic.basic.name}</h2>
         <div className="tag"><a target="_blank" href={Basic.basic.resume}>Download Resume</a></div>
         <div className="contact-info">
@@ -113,9 +122,9 @@ export default function Main() {
 
       </>}
       <div className="contact-footer">
-        <a target="_blank" href={Basic.basic.github}><AiOutlineGithub size={25} className="hover-color" /></a>
-        <a target="_blank" href={Basic.basic.linkdin}><AiFillLinkedin size={25} className="hover-color" /></a>
-        <a  target="_blank" href={Basic.basic.instagram}><AiOutlineInstagram size={25} className="hover-color" /></a>
+        <a target="_blank" aria-label="Visit Github" href={Basic.basic.github}><AiOutlineGithub size={25} className="hover-color" /></a>
+        <a target="_blank" aria-label="Visit LinkedIn" href={Basic.basic.linkdin}><AiFillLinkedin size={25} className="hover-color" /></a>
+        <a  target="_blank" aria-label="Visit Instagram" href={Basic.basic.instagram}><AiOutlineInstagram size={25} className="hover-color" /></a>
       </div>
     </div>
   )

@@ -74,7 +74,7 @@ export default function Portfolio() {
   };
 
   return (
-    <div>
+    <div className='portfolio'>
       <Header />
       <h1 className="heading-name">Portfolio</h1>
       <div className="heading-underline"></div>

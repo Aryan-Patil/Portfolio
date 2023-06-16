@@ -5,7 +5,7 @@
     font-size: 20px;
     padding-top: 20px;
     padding-bottom: 10px;
-    background-color: rgb(56, 56, 56);
+    background-color: rgb(39, 39, 39);
     box-shadow: 0 16px 30px hsla(0, 0%, 0%, 0.25);
     z-index: 100;
 }
@@ -21,7 +21,7 @@
 }
 
 .active {
-    color: rgb(195, 10, 84);
+    color: rgb(215, 30, 104);
 }
 
 @media (max-width:900px) {
