@@ -63,7 +63,7 @@ export default function Portfolio() {
 
   const renderProjects = () => {
     return (
-      <div className='row mt-4'>
+      <div className='row fade-in mt-4'>
         {Data.projects.map((data) => {
           if (selectedType === 'all' || data.type.toString() === selectedType) {
             return <ProjectCard key={data.id} data={data} />;
@@ -75,50 +75,48 @@ export default function Portfolio() {
   };
 
   return (
-  <>
-    <Helmet>
-      <title>Portfolio - Aryan Patil</title>
-      <meta name="description" data-rh="true" content="Explore my diverse portfolio of web development, design, and software projects. Collaborate with me to bring your ideas to life. Contact me now." />
-      <link rel="canonical" href="/Portfolio" />
+    <>
+      <Helmet>
+        <title>Portfolio - Aryan Patil</title>
+        <meta name="description" data-rh="true" content="Explore my diverse portfolio of web development, design, and software projects. Collaborate with me to bring your ideas to life. Contact me now." />
+        <link rel="canonical" href="/Portfolio" />
       </Helmet>
-    <div className='portfolio'>
-      <Header />
-      <h1 className="heading-name">Portfolio</h1>
-      <div className="heading-underline"></div>
+      <div className='portfolio'>
+        <Header />
+        <div className="fade-left">
+          <h1 className="heading-name">Portfolio</h1>
+          <div className="heading-underline"></div>
+        </div>
 
-      <div className="">
-        <button
-          className={selectedType === 'all' ? 'projects-btn projects-btn-active' : 'projects-btn'}
-          onClick={() => setSelectedType('all')}
-        >
-          All
-        </button>
-        <button
-          className={selectedType === '1' ? 'projects-btn projects-btn-active' : 'projects-btn'}
-          onClick={() => setSelectedType('1')}
-        >
-          Web Development
-        </button>
-        <button
-          className={selectedType === '2' ? 'projects-btn projects-btn-active' : 'projects-btn'}
-          onClick={() => setSelectedType('2')}
-        >
-          Web Design
-        </button>
-        <button
-          className={selectedType === '3' ? 'projects-btn projects-btn-active' : 'projects-btn'}
-          onClick={() => setSelectedType('3')}
-        >
-          Software Development
-        </button>
+        <div className="fade-in">
+          <button
+            className={selectedType === 'all' ? 'projects-btn projects-btn-active' : 'projects-btn'}
+            onClick={() => setSelectedType('all')}
+          >
+            All
+          </button>
+          <button
+            className={selectedType === '1' ? 'projects-btn projects-btn-active' : 'projects-btn'}
+            onClick={() => setSelectedType('1')}
+          >
+            Web Development
+          </button>
+          <button
+            className={selectedType === '2' ? 'projects-btn projects-btn-active' : 'projects-btn'}
+            onClick={() => setSelectedType('2')}
+          >
+            Web Design
+          </button>
+          <button
+            className={selectedType === '3' ? 'projects-btn projects-btn-active' : 'projects-btn'}
+            onClick={() => setSelectedType('3')}
+          >
+            Software Development
+          </button>
+        </div>
+
+        {renderProjects()}
       </div>
-
-      {renderProjects()}
-
-      <div className="fake">
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam omnis ducimus recusandae placeat eum voluptatum earum laudantium sequi veritatis. Soluta sapiente magnam quaerat. Placeat temporibus quia ullam sapiente reiciendis eaque.
-      </div>
-    </div>
-  </>
+    </>
   );
 }

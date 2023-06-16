@@ -10,6 +10,11 @@
     background-color: rgba(255, 255, 255, 0.1);
     min-width: fit-content;
 }
+@media (max-height: 699px) {
+    .main {
+        position: absolute;
+    }
+}
 
 .name {
     font-size: 30px;
@@ -51,7 +56,7 @@
 }
 
 .contact-detail-info {
-    margin-bottom: 30px;
+    margin-bottom: 14px;
     display: flex;
 }
 
