@@ -4,10 +4,16 @@ import "./Css/About.css"
 import { CgFigma, CgCodeSlash } from "react-icons/cg";
 import { AiFillGithub } from "react-icons/ai";
 import Basic from "../data/data.json";
+import { Helmet } from 'react-helmet';
 
 export default function About() {
     return (
         <div>
+            <Helmet>
+                <title>Aryan Patil</title>
+                <meta name="description" data-rh="true" content="Welcome to my Portfolio showcasing a diverse range of work. Explore my projects, including Web Development, design and Software Development. Contact me now." />
+                <link rel="canonical" href="/" />
+            </Helmet>
             <Header />
             <div className="fade-left">
                 <h1 className="heading-name">About Me</h1>

@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import Header from '../Components/Header';
 import './Css/Portfolio.css';
 import Data from "../data/data.json";
+import { Helmet } from 'react-helmet';
 
 const ProjectCard = ({ data }) => {
   const renderTags = () => {
@@ -74,6 +75,12 @@ export default function Portfolio() {
   };
 
   return (
+  <>
+    <Helmet>
+      <title>Portfolio - Aryan Patil</title>
+      <meta name="description" data-rh="true" content="Explore my diverse portfolio of web development, design, and software projects. Collaborate with me to bring your ideas to life. Contact me now." />
+      <link rel="canonical" href="/Portfolio" />
+      </Helmet>
     <div className='portfolio'>
       <Header />
       <h1 className="heading-name">Portfolio</h1>
@@ -112,5 +119,6 @@ export default function Portfolio() {
         Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam omnis ducimus recusandae placeat eum voluptatum earum laudantium sequi veritatis. Soluta sapiente magnam quaerat. Placeat temporibus quia ullam sapiente reiciendis eaque.
       </div>
     </div>
+  </>
   );
 }

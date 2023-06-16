@@ -3,6 +3,7 @@ import Header from '../Components/Header';
 import { Player } from '@lottiefiles/react-lottie-player';
 import './Css/Contact.css';
 import emailjs from '@emailjs/browser';
+import { Helmet } from 'react-helmet';
 
 export default function Contact() {
   const [formValues, setFormValues] = useState({
@@ -63,6 +64,11 @@ export default function Contact() {
 
   return (
     <div>
+       <Helmet>
+                <title>Contact Us - Aryan Patil</title>
+                <meta name="description" data-rh="true" content="Get in touch with me to discuss collaborations and bring your ideas to life. Contact me now." />
+                <link rel="canonical" href="/Contact" />
+                </Helmet>
       <Header />
       <h1 className="heading-name fade-left">Contact Us</h1>
       <div className="heading-underline fade-left"></div>

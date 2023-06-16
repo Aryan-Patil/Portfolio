@@ -4,10 +4,16 @@ import { GiBookshelf } from "react-icons/gi";
 import "./Css/Resume.css";
 import Data from "../data/data.json"
 import Skills from '../Components/tools';
+import { Helmet } from 'react-helmet';
 export default function Resume() {
 
   return (
     <div>
+      <Helmet>
+        <title>Resume - Aryan Patil</title>
+        <meta name="description" data-rh="true" content="Explore my resume to uncover my skills, qualifications, and experience in web development, designs and software engineering. Contact me now" />
+        <link rel="canonical" href="/Resume" />
+        </Helmet>
       <Header />
       <div className="fade-left">
         <h1 className="heading-name">Resume</h1>
